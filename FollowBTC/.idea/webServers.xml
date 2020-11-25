@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f72f41dc-47ea-4d14-91b6-91e62ab3e830" name="tokencan_server" url="http://161.117.36.227">
+        <fileTransfer host="161.117.36.227" port="52113" privateKey="C:\Users\Administrator\Desktop\hetbi-style.pem" rootFolder="/root/robot/FollowBTC" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="52113" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
