@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8120f6a0-de76-4bda-b64f-5cb419390eaa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/addrgen/addrgen.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/addrgen/addrgen.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$up_addr_gen_1.coverage" NAME="up_addr_gen_1 Coverage Results" MODIFIED="1557055604136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/up_addr_gen" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$Hello.coverage" NAME="Hello Coverage Results" MODIFIED="1551265505161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$privkey_to_addr__1_.coverage" NAME="privkey-to-addr (1) Coverage Results" MODIFIED="1551671602762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/demo" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$usdp_addr_gen_2.coverage" NAME="usdp_addr_gen_2 Coverage Results" MODIFIED="1558164206801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/up_addr_gen" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$htdf_addr_gen_2.coverage" NAME="htdf_addr_gen_2 Coverage Results" MODIFIED="1558666678476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/up_addr_gen" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$Unittests_in_testbech32.coverage" NAME="Unittests in testbech32 Coverage Results" MODIFIED="1557044954400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/up_addr_gen/testbech32" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$Unittests_for_tests_TestSegwitAddress_test_valid_address.coverage" NAME="Unittests for tests.TestSegwitAddress.test_valid_address Coverage Results" MODIFIED="1557047938119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/up_addr_gen/testbech32" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$privkey_to_addr.coverage" NAME="privkey-to-addr Coverage Results" MODIFIED="1551411680251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$gen_priv_key.coverage" NAME="gen_priv_key Coverage Results" MODIFIED="1551411656527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$btc_addr_gen.coverage" NAME="btc_addr_gen Coverage Results" MODIFIED="1558664966889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/btc_addr_gen" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$goodadd.coverage" NAME="goodadd Coverage Results" MODIFIED="1551442933470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/demo" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$priv_key_to_WIF.coverage" NAME="priv-key-to-WIF Coverage Results" MODIFIED="1554296342810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/demo" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$good.coverage" NAME="good Coverage Results" MODIFIED="1551442518700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/demo" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$btc_addr_gen__1_.coverage" NAME="btc_addr_gen (1) Coverage Results" MODIFIED="1554297541865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/demo" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$Unittests_for_tests_TestSegwitAddress.coverage" NAME="Unittests for tests.TestSegwitAddress Coverage Results" MODIFIED="1557046230304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/up_addr_gen/testbech32" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$addrgen.coverage" NAME="addrgen Coverage Results" MODIFIED="1551670060459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/addrgen" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$priv_2_addr_2.coverage" NAME="priv_2_addr_2 Coverage Results" MODIFIED="1551322822645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$btc_addr_gen_patch.coverage" NAME="btc_addr_gen_patch Coverage Results" MODIFIED="1557312213166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/btc_addr_gen" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$genaddr1.coverage" NAME="genaddr1 Coverage Results" MODIFIED="1554295142075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/demo" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$Unittests_for_tests_TestSegwitAddress_test_valid_checksum.coverage" NAME="Unittests for tests.TestSegwitAddress.test_valid_checksum Coverage Results" MODIFIED="1557046218927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/up_addr_gen/testbech32" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$htdf_addr_gen.coverage" NAME="htdf_addr_gen Coverage Results" MODIFIED="1557889670434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/up_addr_gen" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$btc_addr_gen_2.coverage" NAME="btc_addr_gen_2 Coverage Results" MODIFIED="1557311032494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/btc_addr_gen" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$priv_key_to_WIF_2.coverage" NAME="priv-key-to-WIF-2 Coverage Results" MODIFIED="1554296792018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/demo" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$eth_addr_gen.coverage" NAME="eth_addr_gen Coverage Results" MODIFIED="1557889717330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/eth_addr_gen" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$usdp_addr_gen.coverage" NAME="usdp_addr_gen Coverage Results" MODIFIED="1557059152578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/up_addr_gen" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$priv_2_addr.coverage" NAME="priv_2_addr Coverage Results" MODIFIED="1551407589232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$GenAddr.coverage" NAME="GenAddr Coverage Results" MODIFIED="1551407949267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/GeneratePublicKey$import_addr.coverage" NAME="import_addr Coverage Results" MODIFIED="1553571737661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/parse_addr_file" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1721790371">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="9" />
+          <entry key="project.open.time.84" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bin" value="2" />
+          <entry key="h" value="2" />
+          <entry key="md" value="1" />
+          <entry key="py" value="49" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C++" value="2" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="49" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="bin" value="1" />
+          <entry key="dummy" value="44" />
+          <entry key="h" value="28" />
+          <entry key="py" value="21442" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C++" value="28" />
+          <entry key="PLAIN_TEXT" value="45" />
+          <entry key="Python" value="21442" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.49260172">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/up_addr_gen/usdp_addr_gen_2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="264">
+                  <caret line="199" column="78" selection-start-line="199" selection-start-column="78" selection-end-line="199" selection-end-column="78" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/up_addr_gen/htdf_addr_gen.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="149">
+                  <caret line="227" column="14" selection-start-line="227" selection-start-column="14" selection-end-line="227" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/up_addr_gen/usdp_addr_gen.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="677">
+                  <caret line="238" column="9" selection-start-line="238" selection-start-column="9" selection-end-line="238" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/up_addr_gen/htdf_addr_gen_2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="655">
+                  <caret line="231" column="17" lean-forward="true" selection-start-line="231" selection-start-column="17" selection-end-line="231" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/btc_addr_gen/btc_addr_gen.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="186">
+                  <caret line="221" lean-forward="true" selection-start-line="221" selection-end-line="221" />
+                  <folding>
+                    <element signature="e#79#93#0" expanded="true" />
+                    <marker date="1558664961269" expanded="true" signature="5766:5768" ph="..." />
+                    <marker date="1558664961269" expanded="true" signature="6474:6479" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/eth_addr_gen/eth_addr_gen.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="944">
+                  <caret line="61" selection-start-line="61" selection-end-line="61" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/up_addr_gen/requirements.txt">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/eth_addr_gen/requirements.txt">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/btc_addr_gen/btc_addr_gen_2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3328">
+                  <caret line="210" selection-start-line="210" selection-end-line="210" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/up_addr_gen/testbech32/segwit_addr.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="480">
+                  <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/up_addr_gen/testbech32/segwit_addr.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="88">
+                  <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>python27_d.lib</find>
+      <find>Py_TRACE_REFS</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/addrgen" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Hello.py" />
+        <option value="$PROJECT_DIR$/src/priv_2_addr.py" />
+        <option value="$PROJECT_DIR$/src/priv_2_addr_2.py" />
+        <option value="$PROJECT_DIR$/src/GenAddr.py" />
+        <option value="$PROJECT_DIR$/src/gen_priv_key.py" />
+        <option value="$PROJECT_DIR$/src/privkey-to-addr.py" />
+        <option value="$PROJECT_DIR$/src/priv-key-to-WIF.py" />
+        <option value="$PROJECT_DIR$/src/priv-key-to-WIF-2.py" />
+        <option value="$PROJECT_DIR$/src/demo/good.py" />
+        <option value="$PROJECT_DIR$/src/demo/goodadd.py" />
+        <option value="D:/Python27/include/pyconfig.h" />
+        <option value="D:/Python27/include/object.h" />
+        <option value="$PROJECT_DIR$/src/addrgen/addrgen.py" />
+        <option value="$PROJECT_DIR$/src/parse_addr_file/import_addr.py" />
+        <option value="$PROJECT_DIR$/src/demo/eth_addr_gen.py" />
+        <option value="$PROJECT_DIR$/src/demo/genaddr1.py" />
+        <option value="$PROJECT_DIR$/src/demo/priv-key-to-WIF-2.py" />
+        <option value="$PROJECT_DIR$/src/demo/priv-key-to-WIF.py" />
+        <option value="$PROJECT_DIR$/src/demo/btc_addr_gen.py" />
+        <option value="$PROJECT_DIR$/src/up_addr_gen/testbech32/tests.py" />
+        <option value="$PROJECT_DIR$/src/up_addr_gen/up_addr_gen_1.py" />
+        <option value="$PROJECT_DIR$/src/btc_addr_gen/btc_addr_gen_2.py" />
+        <option value="$PROJECT_DIR$/src/btc_addr_gen/btc_addr_gen_patch.py" />
+        <option value="$PROJECT_DIR$/src/btc_addr_gen/addr_admin.bin" />
+        <option value="$PROJECT_DIR$/src/up_addr_gen/usdp_addr_gen.py" />
+        <option value="$PROJECT_DIR$/src/up_addr_gen/htdf_addr_gen.py" />
+        <option value="$PROJECT_DIR$/src/eth_addr_gen/eth_addr_gen.py" />
+        <option value="$PROJECT_DIR$/src/up_addr_gen/usdp_addr_gen_2.py" />
+        <option value="$PROJECT_DIR$/src/up_addr_gen/htdf_addr_gen_2.py" />
+        <option value="$PROJECT_DIR$/src/btc_addr_gen/btc_addr_gen.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="553" />
+    <option name="width" value="1401" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GeneratePublicKey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneratePublicKey" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeneratePublicKey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneratePublicKey" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeneratePublicKey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneratePublicKey" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="btc_addr_gen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeneratePublicKey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneratePublicKey" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="eth_addr_gen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeneratePublicKey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneratePublicKey" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="up_addr_gen" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\GeneratePublicKey\src\up_addr_gen\testbech32" />
+      <recent name="C:\Users\Administrator\PycharmProjects\GeneratePublicKey\src\demo" />
+      <recent name="C:\Users\Administrator\PycharmProjects\GeneratePublicKey\src\eth_addr_gen" />
+      <recent name="C:\Users\Administrator\PycharmProjects\GeneratePublicKey\src\btc_addr_gen" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\GeneratePublicKey\src\up_addr_gen" />
+      <recent name="C:\Users\Administrator\PycharmProjects\GeneratePublicKey\src\btc_addr_gen" />
+      <recent name="C:\Users\Administrator\PycharmProjects\GeneratePublicKey\src\demo" />
+      <recent name="C:\Users\Administrator\PycharmProjects\GeneratePublicKey\src\parse_addr_file" />
+      <recent name="C:\Users\Administrator\PycharmProjects\GeneratePublicKey\src\eth_addr_gen" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.htdf_addr_gen_2">
+    <configuration name="btc_addr_gen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GeneratePublicKey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/btc_addr_gen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/btc_addr_gen/btc_addr_gen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="eth_addr_gen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GeneratePublicKey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/eth_addr_gen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/eth_addr_gen/eth_addr_gen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="htdf_addr_gen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GeneratePublicKey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/up_addr_gen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/up_addr_gen/htdf_addr_gen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="htdf_addr_gen_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GeneratePublicKey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/up_addr_gen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/up_addr_gen/htdf_addr_gen_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="usdp_addr_gen_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GeneratePublicKey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/up_addr_gen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/up_addr_gen/usdp_addr_gen_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.usdp_addr_gen_2" />
+      <item itemvalue="Python.htdf_addr_gen" />
+      <item itemvalue="Python.btc_addr_gen" />
+      <item itemvalue="Python.eth_addr_gen" />
+      <item itemvalue="Python.htdf_addr_gen_2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.htdf_addr_gen_2" />
+        <item itemvalue="Python.btc_addr_gen" />
+        <item itemvalue="Python.usdp_addr_gen_2" />
+        <item itemvalue="Python.eth_addr_gen" />
+        <item itemvalue="Python.htdf_addr_gen" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8120f6a0-de76-4bda-b64f-5cb419390eaa" name="Default Changelist" comment="" />
+      <created>1550219918505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550219918505</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_tests_TestSegwitAddress - 2019.05.05 at 16h 28m 14s.xml">
+      <configuration name="Unittests for tests.TestSegwitAddress" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testbech32 - 2019.05.05 at 16h 29m 14s.xml">
+      <configuration name="Unittests in testbech32" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_tests_TestSegwitAddress_test_valid_address - 2019.05.05 at 16h 29m 41s.xml">
+      <configuration name="Unittests for tests.TestSegwitAddress.test_valid_address" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_tests_TestSegwitAddress - 2019.05.05 at 16h 50m 11s.xml">
+      <configuration name="Unittests for tests.TestSegwitAddress" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_tests_TestSegwitAddress_test_valid_checksum - 2019.05.05 at 16h 50m 19s.xml">
+      <configuration name="Unittests for tests.TestSegwitAddress.test_valid_checksum" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_tests_TestSegwitAddress - 2019.05.05 at 16h 50m 30s.xml">
+      <configuration name="Unittests for tests.TestSegwitAddress" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_tests_TestSegwitAddress_test_valid_address - 2019.05.05 at 16h 53m 58s.xml">
+      <configuration name="Unittests for tests.TestSegwitAddress.test_valid_address" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_tests_TestSegwitAddress_test_valid_address - 2019.05.05 at 16h 54m 39s.xml">
+      <configuration name="Unittests for tests.TestSegwitAddress.test_valid_address" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_tests_TestSegwitAddress_test_valid_address - 2019.05.05 at 16h 59m 27s.xml">
+      <configuration name="Unittests for tests.TestSegwitAddress.test_valid_address" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_tests_TestSegwitAddress_test_valid_address - 2019.05.05 at 17h 32m 26s.xml">
+      <configuration name="Unittests for tests.TestSegwitAddress.test_valid_address" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15520833" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3134172" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26939204" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2816754" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/up_addr_gen/testbech32/tests.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/up_addr_gen/testbech32/tests.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/up_addr_gen/testbech32/tests.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/up_addr_gen/usdp_test.py</url>
+          <line>268</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/up_addr_gen/testbech32/segwit_addr.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/up_addr_gen/usdp_test.py</url>
+          <line>250</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/eth_addr_gen/eth_addr_gen.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/up_addr_gen/htdf_addr_gen_2.py</url>
+          <line>236</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="decoded" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Hello.py" />
+    <entry file="file://$PROJECT_DIR$/src/priv_2_addr.py" />
+    <entry file="file://$PROJECT_DIR$/src/GenAddr.py" />
+    <entry file="file://$PROJECT_DIR$/src/gen_priv_key.py" />
+    <entry file="file://D:/python3/Lib/ctypes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python27/include/pyconfig.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="345" selection-start-line="345" selection-end-line="345" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python27/include/object.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="56" column="6" lean-forward="true" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/good.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1494736245/nt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="452" column="4" selection-start-line="452" selection-start-column="4" selection-end-line="452" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/goodadd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parse_addr_file/addr_admin.bin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addrgen/addrgen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addrgen/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="288">
+            <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3_x86/Lib/ctypes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="992">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parse_addr_file/import_addr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/eth_addr_gen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/btc_addr_gen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2208">
+          <caret line="140" column="12" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/priv-key-to-WIF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/priv-key-to-WIF-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/privkey-to-addr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/genaddr1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/diff_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python27/Lib/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/up_addr_gen/usdp_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5024">
+          <caret line="314" column="11" selection-start-line="314" selection-start-column="11" selection-end-line="314" selection-end-column="11" />
+          <folding>
+            <element signature="e#73#87#0" expanded="true" />
+            <marker date="1557055604127" expanded="true" signature="6904:7464" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/up_addr_gen/testbech32/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1712">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python27/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5040">
+          <caret line="328" selection-start-line="328" selection-end-line="328" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python27/Lib/unittest/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2336">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/unittestpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4704">
+          <caret line="303" selection-start-line="303" selection-end-line="303" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/btc_addr_gen/btc_addr_gen_patch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4240">
+          <caret line="267" column="23" selection-start-line="267" selection-start-column="23" selection-end-line="267" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/btc_addr_gen/import_addr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/btc_addr_gen/addr_admin.bin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="88" column="90" selection-start-line="88" selection-start-column="90" selection-end-line="88" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python27/Lib/unittest/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3616">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/btc_addr_gen/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eth_addr_gen/eth_addr_gen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="944">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/up_addr_gen/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eth_addr_gen/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/btc_addr_gen/btc_addr_gen_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3328">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/up_addr_gen/usdp_addr_gen_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="199" column="78" selection-start-line="199" selection-start-column="78" selection-end-line="199" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/up_addr_gen/usdp_addr_gen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="238" column="9" selection-start-line="238" selection-start-column="9" selection-end-line="238" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/up_addr_gen/testbech32/segwit_addr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/btc_addr_gen/btc_addr_gen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="221" lean-forward="true" selection-start-line="221" selection-end-line="221" />
+          <folding>
+            <element signature="e#79#93#0" expanded="true" />
+            <marker date="1558664961269" expanded="true" signature="5766:5768" ph="..." />
+            <marker date="1558664961269" expanded="true" signature="6474:6479" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/up_addr_gen/htdf_addr_gen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="227" column="14" selection-start-line="227" selection-start-column="14" selection-end-line="227" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/up_addr_gen/htdf_addr_gen_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="231" column="17" lean-forward="true" selection-start-line="231" selection-start-column="17" selection-end-line="231" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
