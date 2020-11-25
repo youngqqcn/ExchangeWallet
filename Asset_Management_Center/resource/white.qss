@@ -1,0 +1,797 @@
+﻿/*
+* The MIT License (MIT)
+*
+* Copyright : http://blog.csdn.net/liang19890820
+*
+* Author : 一去丶二三里
+*
+* Date : 2016/07/22
+*
+* Description : 白色靓丽
+*
+*/
+
+/**********主界面样式**********/
+QWidget#MainWindow {
+    border: 1px solid rgb(111, 156, 207);
+    background: rgb(176, 200, 226);
+}
+
+QWidget#widget_title{
+    background: rgb(185, 227, 251);
+}
+
+QWidget#CMultiPage{
+    border: 1px solid rgb(111, 156, 207);
+    background: rgb(176, 200, 226);
+}
+
+QProgressIndicator {
+    qproperty-color: rgb(175, 175, 175);
+}
+
+/**********QStackedWidget界面**********/
+QStackedWidget{
+    background: rgb(232, 241, 252);
+}
+
+/**********左边导航栏界面**********/
+NavListView{
+    background: rgb(232, 241, 252);
+    border: 1px solid rgb(111, 156, 207);
+}
+
+/**********w添加币种界面**********/
+QWidget#CAddCoinDlg QFrame{
+    background: rgb(185, 227, 251);
+}
+QWidget#CAddCoinDlg QLabel#label_2{
+    font: 75 14pt "微软雅黑";
+}
+QWidget#CAddCoinDlg QLabel#label_11{
+    font: 10pt "微软雅黑";
+}
+QWidget#CAddCoinDlg QLabel#label_9{
+    font: 11pt "微软雅黑";
+}
+QWidget#CAddCoinDlg QLabel#label_12{
+    font: 11pt "微软雅黑";
+}
+
+/**********删除币种界面**********/
+QWidget#CDeleteCoinDlg QFrame{
+    background: rgb(185, 227, 251);
+}
+QWidget#CDeleteCoinDlg QLabel#lbl_Title{
+    font: 75 14pt "微软雅黑";
+}
+
+/**********导入地址界面**********/
+QWidget#CImportAddrDlg QFrame{
+    background: rgb(185, 227, 251);
+}
+QWidget#CImportAddrDlg QLabel#label{
+    font: 75 14pt "微软雅黑";
+}
+
+/**********添加管理员界面**********/
+QWidget#CAddAdminDlg QFrame{
+    background: rgb(185, 227, 251);
+}
+QWidget#CAddAdminDlg QLabel#label_2{
+    font: 75 14pt "微软雅黑";
+}
+
+/**********重置密码界面**********/
+QWidget#CResetPwdDlg QFrame{
+    background: rgb(185, 227, 251);
+}
+QWidget#CResetPwdDlg QLabel#label_2{
+    font: 75 14pt "微软雅黑";
+}
+
+/**********短信设置界面**********/
+QDialog#CShortMsgSettingDlg QFrame{
+    background: rgb(185, 227, 251);
+}
+QWidget#CShortMsgSettingDlg QLabel#label{
+    font: 75 14pt "微软雅黑";
+}
+
+/**********充币审核界面**********/
+QDialog#audit_dlg QFrame{
+    background: rgb(185, 227, 251);
+}
+QWidget#audit_dlg QLabel#label{
+    font: 75 14pt "微软雅黑";
+}
+
+/**********审核驳回界面**********/
+QWidget#CManualConfirmDialog QFrame{
+    background: rgb(185, 227, 251);
+}
+QWidget#CManualConfirmDialog QLabel#label_Title{
+    font: 75 14pt "微软雅黑";
+}
+
+/**********添加监控地址界面**********/
+QDialog#CAdd_Big_Addr_Dlg QFrame{
+    background: rgb(185, 227, 251);
+}
+QWidget#CAdd_Big_Addr_Dlg QLabel#label{
+    font: 75 14pt "微软雅黑";
+}
+
+/**********确认广播选中界面**********/
+QDialog#CCollectionConfirmDialog QFrame{
+    background: rgb(185, 227, 251);
+}
+QWidget#CCollectionConfirmDialog QLabel#label{
+    font: 75 14pt "微软雅黑";
+}
+
+/**********删除选中地址界面**********/
+QDialog#CDelete_Big_Addr_Dlg QFrame{
+    background: rgb(185, 227, 251);
+}
+QWidget#CDelete_Big_Addr_Dlg QLabel#label{
+    font: 75 14pt "微软雅黑";
+}
+
+/**********输入私钥文件解密密码界面**********/
+QDialog#CDlg_single_lineedit QFrame{
+    background: rgb(185, 227, 251);
+}
+QWidget#CDlg_single_lineedit QLabel#lb_label{
+    font: 75 14pt "微软雅黑";
+}
+
+
+/**********qmessagebox样式**********/
+QMessageBox{
+    background-color: rgb(145, 217, 251);
+    font:12px "微软雅黑";
+    color:black;
+    border:none;
+}
+QMessageBox QPushButton{
+    color:black;
+    font:16px "微软雅黑";
+    width: 50px;
+    height: 30px;
+}
+
+/**********表头**********/
+QHeaderView{
+    border: none;
+    border-bottom: 3px solid rgb(0, 78, 161);
+    font: 14px "微软雅黑";
+    background: transparent;
+    min-height: 30px;
+}
+QHeaderView::section:horizontal {
+    border: none;
+    color: rgb(2, 65, 132);
+    background: transparent;
+    padding-left: 5px;
+}
+QHeaderView::section:horizontal:hover {
+    color: white;
+    background: rgb(0, 78, 161);
+}
+
+/**********表格**********/
+QTableView {
+    border: 1px solid rgb(111, 156, 207);
+    background: rgb(224, 238, 255);
+    gridline-color: rgb(111, 156, 207);
+}
+QTableView::item {
+    color: rgb(75, 75, 75);
+    font: 75 14px "微软雅黑";
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background: white;
+}
+QTableView::item:selected {
+    background: rgba(255, 255, 255, 50);
+}
+QTableView::item:selected:!active {
+        color: rgb(65, 65, 65);
+}
+QTableView::indicator {
+        width: 20px;
+        height: 20px;
+}
+QTableView::indicator:enabled:unchecked {
+        image: url(:/Black/checkBox);
+}
+QTableView::indicator:enabled:unchecked:hover {
+        image: url(:/Black/checkBoxHover);
+}
+QTableView::indicator:enabled:unchecked:pressed {
+        image: url(:/Black/checkBoxPressed);
+}
+QTableView::indicator:enabled:checked {
+        image: url(:/Black/checkBoxChecked);
+}
+QTableView::indicator:enabled:checked:hover {
+        image: url(:/Black/checkBoxCheckedHover);
+}
+QTableView::indicator:enabled:checked:pressed {
+        image: url(:/Black/checkBoxCheckedPressed);
+}
+QTableView::indicator:enabled:indeterminate {
+        image: url(:/Black/checkBoxIndeterminate);
+}
+QTableView::indicator:enabled:indeterminate:hover {
+        image: url(:/Black/checkBoxIndeterminateHover);
+}
+QTableView::indicator:enabled:indeterminate:pressed {
+        image: url(:/Black/checkBoxIndeterminatePressed);
+}
+
+/**********滚动条-水平**********/
+QScrollBar:horizontal {
+        height: 20px;
+        background: transparent;
+        margin-top: 3px;
+        margin-bottom: 3px;
+}
+QScrollBar::handle:horizontal {
+        height: 20px;
+        min-width: 30px;
+        background: rgb(170, 200, 230);
+        margin-left: 15px;
+        margin-right: 15px;
+}
+QScrollBar::handle:horizontal:hover {
+        background: rgb(165, 195, 225);
+}
+QScrollBar::sub-line:horizontal {
+        width: 15px;
+        background: transparent;
+        image: url(:/White/arrowLeft.png);
+        subcontrol-position: left;
+}
+QScrollBar::add-line:horizontal {
+        width: 15px;
+        background: transparent;
+        image: url(:/White/arrowRight.png);
+        subcontrol-position: right;
+}
+QScrollBar::sub-line:horizontal:hover {
+        background: rgb(170, 200, 230);
+}
+QScrollBar::add-line:horizontal:hover {
+        background: rgb(170, 200, 230);
+}
+QScrollBar::add-page:horizontal,QScrollBar::sub-page:horizontal {
+        background: transparent;
+}
+
+/**********滚动条-垂直**********/
+QScrollBar:vertical {
+        width: 20px;
+        background: transparent;
+        margin-left: 3px;
+        margin-right: 3px;
+}
+QScrollBar::handle:vertical {
+        width: 20px;
+        min-height: 30px;
+        background: rgb(170, 200, 230);
+        margin-top: 15px;
+        margin-bottom: 15px;
+}
+QScrollBar::handle:vertical:hover {
+        background: rgb(165, 195, 225);
+}
+QScrollBar::sub-line:vertical {
+        height: 15px;
+        background: transparent;
+        image: url(:/White/topArrow.png);
+        subcontrol-position: top;
+}
+QScrollBar::add-line:vertical {
+        height: 15px;
+        background: transparent;
+        image: url(:/White/bottomArrow.png);
+        subcontrol-position: bottom;
+}
+QScrollBar::sub-line:vertical:hover {
+        background: rgb(170, 200, 230);
+}
+QScrollBar::add-line:vertical:hover {
+        background: rgb(170, 200, 230);
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+        background: transparent;
+}
+
+QScrollBar#verticalScrollBar:vertical {
+        margin-top: 30px;
+}
+
+/**********下拉列表**********/
+QComboBox {
+    font: 13px "微软雅黑";
+    border: 1px solid rgb(111, 156, 207);
+    background: white;
+}
+QComboBox:enabled {
+    color: rgb(84, 84, 84);
+    border-radius: 4px;
+}
+QComboBox:!enabled {
+    color: rgb(80, 80, 80);
+    border-radius: 4px;
+}
+/**
+QComboBox:enabled:hover, QComboBox:enabled:focus {
+    color: rgb(51, 51, 51);
+    background: rgb(200, 200, 200);
+    border : 1px solid rgba(111, 156, 207, 100);
+}
+QComboBox:enabled:pressed, QComboBox:enabled:focus {
+    color: rgb(51, 51, 51);
+    background: rgb(200, 200, 200);
+    border : 1px solid rgb(111, 156, 207, 150);
+}
+**/
+QComboBox::drop-down {
+    border: none;
+    background: transparent;
+}
+QComboBox::drop-down:hover {
+    background: rgba(255, 255, 255, 30);
+}
+QComboBox::down-arrow {
+    image: url(:/White/arrowBottom.png);
+}
+QComboBox::down-arrow:on {
+    /**top: 1px;**/
+    image: url(:/White/bottomArrow.png);
+}
+QComboBox QAbstractItemView {
+    border : 1px solid rgb(111, 156, 207);
+    background: white;
+    font-size: 13px;
+    outline: none;
+}
+QComboBox QAbstractItemView::item {
+    color: rgb(73, 73, 73);
+    background: white;
+    height: 25px;
+}
+QComboBox QAbstractItemView::item:selected {
+    background: rgb(232, 241, 250);
+    color: rgb(2, 65, 132);
+}
+
+QComboBox#cbx_skin{
+    border:none;
+    font: 13px "微软雅黑";
+    background: rgb(120, 170, 220);
+    width: 80px;
+    height: 30px;
+}
+QComboBox#cbx_skin:hover{
+    background: rgb(130, 180, 230);
+}
+QComboBox#cbx_skin::drop-down {
+    border: none;
+    background: transparent;
+}
+QComboBox#cbx_skin::drop-down:hover {
+    background: rgba(125, 175, 225);
+}
+QComboBox#cbx_skin::down-arrow{
+    image: url(:/White/skin.png);
+}
+QComboBox#cbx_skin::down-arrow:on{
+    image: url(:/White/skinPressed.png);
+}
+
+/**********进度条**********/
+QProgressBar{
+    border: none;
+    text-align: center;
+    color: white;
+    background: rgb(173, 202, 232);
+}
+QProgressBar::chunk {
+    background: rgb(16, 135, 209);
+}
+
+QProgressBar#progressBar {
+    border: none;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    background-image: url(":/White/progressBar.png");
+    background-repeat: repeat-x;
+}
+QProgressBar#progressBar::chunk {
+    border: none;
+    background-color: transparent;
+    background-image: url(":/White/progressBarChunk.png");
+    background-repeat: repeat-x;
+}
+
+/**********复选框**********/
+QCheckBox{
+    spacing: 5px;
+}
+QCheckBox:enabled:checked{
+    color: rgb(2, 65, 132);
+}
+QCheckBox:enabled:!checked{
+    color: rgb(155, 155, 155);
+}
+QCheckBox:enabled:hover{
+    color: rgb(70, 71, 73);
+}
+QCheckBox:!enabled{
+    color: rgb(80, 80, 80);
+}
+QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+}
+QCheckBox::indicator:unchecked {
+    image: url(:/White/checkBox.png);
+}
+QCheckBox::indicator:unchecked:hover {
+    image: url(:/White/checkBoxHover.png);
+}
+QCheckBox::indicator:unchecked:pressed {
+    image: url(:/White/checkBoxPressed.png);
+}
+QCheckBox::indicator:checked {
+    image: url(:/White/checkBoxChecked.png);
+}
+QCheckBox::indicator:checked:hover {
+    image: url(:/White/checkBoxCheckedHover.png);
+}
+QCheckBox::indicator:checked:pressed {
+    image: url(:/White/checkBoxCheckedPressed.png);
+}
+QCheckBox::indicator:indeterminate {
+    image: url(:/White/checkBoxIndeterminate.png);
+}
+QCheckBox::indicator:indeterminate:hover {
+    image: url(:/White/checkBoxIndeterminateHover.png);
+}
+QCheckBox::indicator:indeterminate:pressed {
+    image: url(:/White/checkBoxIndeterminatePressed.png);
+}
+
+/**********单选框**********/
+QRadioButton{
+    spacing: 5px;
+}
+QRadioButton:enabled:checked{
+    color: rgb(2, 65, 132);
+}
+QRadioButton:enabled:!checked{
+    color: rgb(70, 71, 73);
+}
+QRadioButton:enabled:hover{
+    color: rgb(0, 78, 161);
+}
+QRadioButton:!enabled{
+    color: rgb(80, 80, 80);
+}
+QRadioButton::indicator {
+    width: 20px;
+    height: 20px;
+}
+QRadioButton::indicator:unchecked {
+    image: url(:/White/radioButton.png);
+}
+QRadioButton::indicator:unchecked:hover {
+    image: url(:/White/radioButtonHover.png);
+}
+QRadioButton::indicator:unchecked:pressed {
+    image: url(:/White/radioButtonPressed.png);
+}
+QRadioButton::indicator:checked {
+    image: url(:/White/radioButtonChecked.png);
+}
+QRadioButton::indicator:checked:hover {
+    image: url(:/White/radioButtonCheckedHover.png);
+}
+QRadioButton::indicator:checked:pressed {
+    image: url(:/White/radioButtonCheckedPressed.png);
+}
+
+/**********输入框**********/
+QLineEdit {
+    border-radius: 3px;
+    font: 12pt "微软雅黑";
+    color: rgb(84, 84, 84);
+    border: 1px solid rgb(111, 156, 207);
+    background: white;
+}
+QLineEdit:enabled {
+    color: rgb(84, 84, 84);
+}
+QLineEdit:enabled:hover, QLineEdit:enabled:focus {
+    color: rgb(84, 84, 84);
+}
+QLineEdit:!enabled {
+    color: rgb(155, 155, 155);
+}
+QLineEdit:enable:pressed, QLineEdit:enabled:focus{
+    border: 1px solid rgba(0, 160, 230, 225);
+}
+
+/**********文本编辑框**********/
+QTextEdit {
+    border: 1px solid rgb(111, 156, 207);
+    font: 12pt "微软雅黑";
+    color: rgb(70, 71, 73);
+    background: rgb(187, 212, 238);
+}
+QTextEdit:enabled {
+    color: rgb(84, 84, 84);
+}
+QTextEdit:enabled:hover, QTextEdit:enabled:focus {
+    color: rgb(230, 230, 230);
+}
+QTextEdit:!enabled {
+    color: rgb(155, 155, 155);
+}
+QTextEdit:enable:pressed, QTextEdit:enabled:focus{
+    border: 1px solid rgba(0, 160, 230, 225);
+}
+
+/**********滚动区域**********/
+QScrollArea {
+    border: 1px solid rgb(111, 156, 207);
+    background: rgb(187, 212, 238);
+}
+
+/**********滚动区域**********/
+QWidget#transparentWidget {
+    background: transparent;
+}
+
+/**********标签**********/
+QLabel{
+    color: rgb(70, 71, 73);
+    font: 75 12pt "微软雅黑";
+}
+QLabel#lb_AdminTypeList_1{
+    font: 75 15pt "微软雅黑";
+}
+QLabel#label_3{
+    font: 75 10pt "微软雅黑";
+}
+QLabel#lb_AirdropCharge_5{
+    font: 75 20pt "微软雅黑";
+}
+QLabel#lb_UserAssertData_2{
+    color: rgb(22, 155, 213);
+    font: 75 12pt "微软雅黑";
+}
+QLabel#lb_UserAssertData_UserID{
+    color: rgb(22, 155, 213);
+    font: 75 12pt "微软雅黑";
+}
+QLabel#lb_UserAssertData_1{
+    color: rgb(22, 155, 213);
+    font: 75 12pt "微软雅黑";
+}
+QLabel#lb_UserAssertData_UserName{
+    color: rgb(22, 155, 213);
+    font: 75 12pt "微软雅黑";
+}
+QLabel#lb_UserAssertData_5{
+    color: rgb(22, 155, 213);
+    font: 75 12pt "微软雅黑";
+}
+QLabel#lb_UserAssertData_UserTel{
+    color: rgb(22, 155, 213);
+    font: 75 12pt "微软雅黑";
+}
+QLabel#lb_UserStatements_3{
+    color: rgb(22, 155, 213);
+    font: 75 12pt "微软雅黑";
+}
+QLabel#lb_UserStatements_UserID{
+    color: rgb(22, 155, 213);
+    font: 75 12pt "微软雅黑";
+}
+QLabel#lb_UserStatements_5{
+    color: rgb(22, 155, 213);
+    font: 75 12pt "微软雅黑";
+}
+QLabel#lb_UserStatements_UserName{
+    color: rgb(22, 155, 213);
+    font: 75 12pt "微软雅黑";
+}
+QLabel#lb_UserStatements_2{
+    color: rgb(22, 155, 213);
+    font: 75 12pt "微软雅黑";
+}
+QLabel#lb_UserStatements_UserTel{
+    color: rgb(22, 155, 213);
+    font: 75 12pt "微软雅黑";
+}
+QLabel#lb_application_image{
+    image: url(:/account.png);
+}
+
+/**********按钮**********/
+QPushButton{
+    border-radius: 3px;
+    font:14px "微软雅黑";
+    border: none;
+    outline:none;
+}
+QToolButton{
+    border-radius: 3px;
+    font:14px "微软雅黑";
+    border: none;
+    outline:none;
+}
+QPushButton:enabled {
+    background: rgb(120, 170, 220);
+    font:14px "微软雅黑";
+    color: white;
+}
+QPushButton:!enabled {
+    font:14px "微软雅黑";
+    background: rgb(180, 180, 180);
+    color: white;
+}
+QPushButton:enabled:hover{
+    font:14px "微软雅黑";
+    background: rgb(100, 160, 220);
+}
+QPushButton:enabled:pressed{
+    font:14px "微软雅黑";
+    background: rgba(0, 78, 161);
+}/**********最小化按钮**********/
+QPushButton#btn_minimize {
+    border-radius: none;
+/***    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;        **/
+    background: rgb(120, 170, 220);
+    image: url(:/White/minimize.png);
+}
+QPushButton#btn_minimize:hover {
+    background: rgb(130, 180, 230);
+    image: url(:/White/minimizeHover.png);
+}
+QPushButton#btn_minimize:pressed {
+    background: rgb(125, 175, 225);
+    image: url(:/White/minimizePressed.png);
+}
+/**********正常按钮**********/
+QPushButton#btn_feedback {
+    border-radius: none;
+    /***    border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;        **/
+    background: rgb(120, 170, 220);
+    image: url(:/White/restore.png);
+}
+QPushButton#btn_feedback:hover {
+    background: rgb(130, 180, 230);
+    image: url(:/White/restoreHover.png);
+}
+QPushButton#btn_feedback:pressed {
+    background: rgb(125, 175, 225);
+    image: url(:/White/restorePressed.png);
+}
+/**********最大化按钮**********/
+QPushButton#btn_maximize {
+    border-radius: none;
+    /***    border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;        **/
+    background: rgb(120, 170, 220);
+    image: url(:/White/maximize.png);
+}
+QPushButton#btn_maximize:hover {
+    background: rgb(130, 180, 230);
+    image: url(:/White/maximizeHover.png);
+}
+QPushButton#btn_maximize:pressed {
+    background: rgb(125, 175, 225);
+    image: url(:/White/maximizePressed.png);
+}
+/**********关闭按钮**********/
+QPushButton#btn_close {
+    border-radius: none;
+    /***    border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;        **/
+    background: rgb(120, 170, 220);
+    image: url(:/White/close.png);
+}
+QPushButton#btn_close:hover {
+    background: rgba(255, 0, 0, 100);
+    image: url(:/White/closeHover.png);
+}
+QPushButton#btn_close:pressed {
+    background: rgba(255, 0, 0, 150);
+    image: url(:/White/closePressed.png);
+}
+/**********设置按钮**********/
+QPushButton#btn_setting {
+    border-radius: none;
+    /***    border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;        **/
+    background: rgb(120, 170, 220);
+    image: url(:/White/setting.png);
+}
+QPushButton#btn_setting:hover {
+    background: rgb(130, 180, 230);
+    image: url(:/White/settingHover.png);
+}
+QPushButton#btn_setting:pressed {
+    background: rgb(125, 175, 225);
+    image: url(:/White/settingPressed.png);
+}
+
+/**********设置QDateTimeEdit样式**********/
+QDateTimeEdit{
+    background: white;
+    border-radius: 3px;
+    border: 1px solid rgb(111, 156, 207);
+    color: rgb(84, 84, 84);
+    font: 12px "微软雅黑";
+}
+QDateTimeEdit::up-button{
+    border-radius: 3px;
+    border: 1px solid rgba(111, 156, 207, 40);
+    background: transparent;
+    image: url(:/White/upButton.png);
+}
+QDateTimeEdit::up-button:hover{
+    background: rgba(111, 156, 207, 80);
+}
+QDateTimeEdit::up-button:pressed{
+    background: rgba(111, 156, 207, 50);
+}
+QDateTimeEdit::down-button{
+    border-radius: 3px;
+    border: 1px solid rgba(111, 156, 207, 40);
+    background: transparent;
+    image: url(:/White/downButton.png);
+}
+QDateTimeEdit::down-button:hover{
+    background: rgba(111, 156, 207, 80);
+}
+QDateTimeEdit::down-button:pressed{
+    background: rgba(111, 156, 207, 50);
+}
+
+/**********设置分页组件样式**********/
+QLabel[page="true"]
+{
+    padding: 1px;
+    font: 13px "微软雅黑";
+}
+
+QWidget#centerPagesWidget QLabel[currentPage="true"]
+{
+    color: rgb(190, 0, 0);
+}
+QWidget#leftPagesWidget QLabel[currentPage="true"]
+{
+    color: rgb(190, 0, 0);
+}
+QWidget#rightPagesWidget QLabel[currentPage="true"]
+{
+    color: rgb(190, 0, 0);
+}
+
+QLabel[page="true"]:hover
+{
+    color: white;
+    border-radius: 4px;
+    background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(53, 121, 238, 255), stop:2 rgba(0, 202, 237, 255));
+}
