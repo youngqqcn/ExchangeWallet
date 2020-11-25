@@ -1,0 +1,7 @@
+此目录存放AM和WM的一些库, 此目录的库已全部用于 AM和WM, 并做了部分改动
+核心算法是相同的
+
+目前包含以下核心项目
+
+libethsig     以太坊离线签名
+libusdpsig     Cosmos离线签名(USDP, HTDF都是基于Cosmos)
