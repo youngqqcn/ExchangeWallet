@@ -1,0 +1,4 @@
+1. 参考这个修改  pyconfig.h 文件 (也可以使用Python27_x86.7z, 解压后, 配置工程的库即可)
+	https://blog.csdn.net/Chris_zhangrx/article/details/78947526
+	
+2.使用 x86 编译
